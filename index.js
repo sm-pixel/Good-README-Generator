@@ -13,6 +13,26 @@ inquirer.prompt([
         type: "input",
         message: "What is the discription of your project?"
 },
+{
+    name:"installation",
+    type:"input",
+    message:"How do you install this project/program?"
+},
+{
+    name:"usage",
+    type:"input",
+    message:"What is this program used for?"
+},
+{
+    name:"license",
+    type:"input",
+    message:"Are there any licenses for the project? If so, which?"
+},
+{
+    name:"contributing",
+    type:"input",
+    message:"Who are the authors/contributors for this project?"
+},
 ]).then(data =>{
     console.log(data)
 
