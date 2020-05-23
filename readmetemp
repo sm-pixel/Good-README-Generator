@@ -18,3 +18,23 @@ Description of Project goes here. Tells you what the project is about.
 ## Contributing
 
 ## Tests
+
+Answers to prompts
+
+Good README Generator
+
+An application to dynamically create a 'README.md' file from command line prompts.
+
+npm i
+
+To use this on your local machine fork and then clone. Each time the application is run it will replace all of the information in the 'README.md' so please rename the readme to another name to keep the original information. Run the test command and the run 'node index.js' on the command line in the terminal.
+
+MIT
+
+Samantha Morrison
+
+npm test
+
+sm-pixel
+
+ms.samantha.marie.86@gmail.com

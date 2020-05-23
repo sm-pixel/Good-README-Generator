@@ -34,7 +34,7 @@ inquirer.prompt([
         message: "Who are the authors/contributors for this project?"
     },
     {
-        name: "test",
+        name: "tests",
         type: "input",
         message: "What command do you type to run a test?"
     },
