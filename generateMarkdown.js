@@ -14,7 +14,11 @@ ${data.description}
 6. [Questions](#Questions)
 
 ## Installation
+To install run the code below in the terminal
+
+\`\`\`
 ${data.installation}
+\`\`\`
 
 ## Usage
 ${data.usage}
@@ -26,12 +30,16 @@ ${data.license}
 ${data.contributing}
 
 ## Tests
+
+To install run the code below in the terminal
+
+\`\`\`
 ${data.tests}
+\`\`\`
 
 ## Questions
-Please direct questions to ${data.username} or email ${data.email}
+Please direct questions to [${data.username}](github.com/${data.username}) or email [${data.email}](mailto:${data.email})
   `;
-  }
-  
-  module.exports = generateMarkdown;
-  
+}
+
+module.exports = generateMarkdown;
