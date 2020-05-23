@@ -16,7 +16,7 @@ inquirer.prompt([
 {
     name:"installation",
     type:"input",
-    message:"How do you install this project/program?"
+    message:"What command do you type to install this project/program?"
 },
 {
     name:"usage",
@@ -26,12 +26,27 @@ inquirer.prompt([
 {
     name:"license",
     type:"input",
-    message:"Are there any licenses for the project? If so, which?"
+    message:"Are there any licenses for the project? If so, which one?"
 },
 {
     name:"contributing",
     type:"input",
     message:"Who are the authors/contributors for this project?"
+},
+{
+    name:"test",
+    type:"input",
+    message:"What command do you type to run a test?"
+},
+{
+    type: "input",
+    message: "What is your GitHub username?",
+    name: "username"
+},
+{
+    type: "input",
+    message: "What is your email address?",
+    name: "email"
 },
 ]).then(data =>{
     console.log(data)

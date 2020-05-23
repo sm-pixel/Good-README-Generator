@@ -1,7 +1,8 @@
 function generateMarkdown(data) {
     return `
 # ${data.title}
-### Description 
+![npm](https://img.shields.io/npm/v/inquirer?style=flat-square)
+# Description 
 ${data.description}
 # Table of Contents
 
@@ -10,6 +11,7 @@ ${data.description}
 3. [License](#License)
 4. [Contributing](#Contributing)
 5. [Tests](#Tests)
+6. [Questions](#Questions)
 
 ## Installation
 ${data.installation}
@@ -25,6 +27,9 @@ ${data.contributing}
 
 ## Tests
 ${data.tests}
+
+## Questions
+Please direct questions to ${data.username} or email ${data.email}
   `;
   }
   
